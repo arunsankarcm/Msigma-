@@ -1,0 +1,145 @@
+.nav-tab-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.nav-tab-elements ul {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  list-style: none;
+}
+
+.hiring-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+
+.wehiring {
+  margin-left: 45px;
+}
+
+.search-jobs {
+  padding-top: 10px;
+  margin-right: 50px;
+  img {
+    position: relative;
+    top: 14px;
+    right: 53px;
+  }
+}
+
+.search-jobs input {
+  margin-top: 10px;
+  border-radius: 30px;
+  padding: 15px;
+}
+
+.viewall-div ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  gap: 30px;
+}
+
+.viewall-div li {
+  border: 1px solid black;
+  border-radius: 30px;
+  padding: 20px;
+  font-size: 12px;
+  font-weight: 20px;
+}
+
+.viewall-div li:hover {
+  background-color: green;
+  color: white;
+}
+
+.job-details {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.job-type ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  gap: 10px;
+}
+
+.job-type li {
+  border: 1px solid black;
+  border-radius: 30px;
+  padding: 10px;
+}
+
+.job-desc {
+  margin-left: 45px;
+}
+
+.apply {
+  margin-right: 50px;
+}
+
+.jobs-main {
+  border-bottom: 1px solid gray;
+}
+
+.footer-sections {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: 1px solid gray;
+}
+
+.footer-logo {
+  margin-left: 45px;
+  margin-top: 200px;
+  p {
+    font-size: 10px;
+    line-height: 20px;
+    margin-left: 15px;
+  }
+}
+
+.infos li {
+  list-style: none;
+  font-size: 10px;
+  line-height: 23px;
+  h5 {
+    font-size: 11px;
+  }
+}
+
+.footer-info {
+  display: flex;
+  flex-direction: row;
+  gap: 110px;
+  margin-right: 50px;
+  margin-top: 200px;
+}
+
+.socials i {
+  color: gray;
+  gap: 20px;
+  padding: 5px;
+}
+
+.footer-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: gray;
+  margin-top: 20px;
+  margin-left: 45px;
+  margin-right: 50px;
+  font-size: 10px;
+}
+
+* {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
